@@ -1,0 +1,134 @@
+body {
+ background-color: rgb(3,126,243);   
+ font-family: lato;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    border-radius: 4px;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.color {
+    background-color: rgb(3,126,243);;
+
+    padding: 5px 0px 5px 170px;
+}
+
+
+.socialbox {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top:40px;
+    margin: 0 auto;
+    font-weight: bold;
+}
+.social1 {
+    background-color: rgb(244,245,247);
+    padding: 10px 70px 10px 70px; 
+    margin: 0px 0px 10px 0px;
+    cursor: pointer;
+    border: 1px solid rgb(236,236,236); 
+    border-radius: 2px;
+}
+
+.social2 {
+    background-color: rgb(244,245,247);
+    padding: 10px 70px 10px 70px; 
+    cursor: pointer;
+      border: 1px solid rgb(236,236,236);
+      border-radius: 2px;
+}
+
+span {
+  margin: 0px 0px 0px 20px;
+}
+
+.or {
+    position: relative;
+    top: 70px;
+    left: 70px;
+    margin: 0 auto;
+    margin: 0px 0px 0px 120px;
+    color: rgb(155,155,181);
+    text-transform: uppercase;
+    font-size: 10px ;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    margin: 0 auto;
+    margin: 100px 0px 0px 0px;    
+}
+
+.email1 {
+    margin: 10px 40px 0px 40px;
+    padding: 10px 0px 10px 10px;
+    border: 1px solid rgb(194, 187, 187);
+}
+
+.email1:focus {
+    outline: none;
+}
+
+.password {
+    margin: 20px 40px 15px 40px;
+    padding: 10px 0px 10px 10px;
+    border: 1px solid rgb(194, 187, 187);
+}
+
+.password:focus {
+    outline: none;
+}
+
+button {
+     display: inline-block;
+    flex-direction: column;
+    position: relative;
+    top: 10px;
+    left: 40px;
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+    padding: 13px 10px 13px 140px;
+    cursor: pointer;
+    background-color: rgb(3,126,243);
+    color: white;
+    border: none;
+    border-radius: 2px;
+
+}
+
+a {
+     display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 0 auto;
+    margin: 105px 0px 0px 140px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;    
+}
+
+.privacyterms{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    bottom: 4px;
+    right: 0px;
+
+}
+
