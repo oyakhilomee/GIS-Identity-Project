@@ -1,2 +1,2 @@
-# GIS-Identity-Project
-Recreated the back end login page for the AIESEC website.
+## GIS-Identity-Project
+Recreated the login page for members on the AIESEC website.
